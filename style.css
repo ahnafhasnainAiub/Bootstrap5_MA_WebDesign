@@ -1,0 +1,385 @@
+*,
+*::after,
+*::before {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1696px !important;
+  margin: 0 auto !important;
+  padding: 0 20px;
+}
+
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+
+.hero-photo {
+  margin: 28px 0px 52px 20px;
+}
+
+.background-image {
+  margin: 120px 0px 120px 0px;
+}
+
+.title {
+  font-size: 32px;
+  line-height: 44px;
+  text-align: start !important;
+}
+.hero-title {
+  font-size: 50px !important;
+}
+
+.btn-schedule {
+  background-color: #0060af;
+  color: white;
+}
+.service-btn {
+  row-gap: 1rem;
+}
+.drop-size {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 60px;
+}
+.services-font {
+  gap: 8px !important;
+}
+
+.services-font button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.your-query custom-input {
+  max-width: 318px !important;
+  max-height: 120px !important;
+  /* padding: 12px 16px 12px 16px;
+  gap: 10px;
+  border-radius: 8px 0px 0px 0px;
+  border: 1px 0px 0px 0px;
+  opacity: 0px; */
+}
+/* .content .nav-link {
+  color: #333333;
+  font-size: 20px;
+  line-height: 28px;
+} */
+
+.nav-link:hover {
+  color: #0060af;
+}
+
+.nav-buttons {
+  color: #0060af;
+}
+
+.nav-item {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.top-header {
+  background-color: #002b4f;
+  color: white;
+  column-gap: 20px;
+  /* display: flex !important; */
+  text-align: center;
+}
+
+.navbar-brand img {
+  width: 130px;
+}
+
+.get-in-touch span {
+  color: #00a88e;
+}
+.bitton-ash {
+  background-color: #f2f4f7 !important;
+}
+
+/* .contact-details {
+  max-width: ;
+} */
+.meeting-text {
+  font-family: CircularStd;
+  font-weight: 350;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: start;
+  color: #344054;
+}
+
+.drop-line {
+  color: #00a88e;
+}
+
+.hero-section {
+  background-color: #eff8f8;
+}
+/* .calender-button{
+    color: ; #0060AF */
+
+.contact {
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  font-size: 10px;
+  line-height: 16px;
+  margin-top: 10px;
+}
+
+.social-icon {
+  gap: 4px;
+}
+
+.social-icon i {
+  font-size: 12px;
+  height: 12px;
+}
+
+.hero-btn {
+  width: 100% !important;
+}
+
+.custom-input-group {
+  border: 1px solid #bfd2e6;
+  padding: 5px 8px 5px 7px;
+  border-radius: 8px;
+}
+
+.custom-placeholder {
+  border-radius: 5px;
+  padding: 5px;
+  vertical-align: middle;
+  width: 138px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  text-wrap: nowrap;
+}
+.file-btn {
+  background-color: #13af88;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 5px 4px;
+}
+/* .ma-address {
+  margin-bottom: 24px;
+} */
+
+.bang-address {
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+
+.ban-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 20px 0px;
+}
+
+.usa-address {
+  margin-top: 24px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+}
+
+.usa-heading {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+  margin: 20px 0px;
+}
+
+.btn-surv{
+  background-color: #e6eff7;
+}
+
+.deck-btn {
+  background-color: #e6eff7;
+}
+.book-button {
+  background-color: #0060af !important;
+  color: white !important;
+}
+.icons-address {
+  color: #344054;
+}
+.total-form-background {
+  background-color: #f9fafb;
+  padding: 16px;
+  border-radius: 12px;
+}
+
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+  display: block;
+}
+.input-flex {
+  width: 100%;
+}
+.today {
+  display: flex;
+  text-align: center;
+}
+.footer-background-mobile {
+  background-image: url(./assests/background.png);
+  background-repeat: no-repeat;
+  /* background-color: aliceblue; */
+  background-size: cover;
+}
+.map-view {
+  display: none;
+}
+@media only screen and (min-width: 576px) {
+  .map-view {
+    display: block;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .footer-background-desktop {
+    /* background-color: lightblue; */
+    background-image: url(./assests//Footer.png);
+    background-repeat: no-repeat;
+    /* background-color: aliceblue; */
+    background-size: cover;
+    width: 100%;
+    display: flex;
+  }
+  .get-touch-title {
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 70px;
+    line-height: 80px;
+    text-align: start;
+  }
+
+  .message-services {
+    margin-top: 96px;
+  }
+
+  /* .calender-button{
+    margin: 200px 520px 0px 0px;
+  } */
+  .btn-schedule {
+    margin-top: 64px;
+  }
+  .calender-button {
+    width: fit-content;
+    /* margin: 64px 0px 120px 0px; */
+  }
+  .company-address {
+    margin-top: 96px;
+  }
+  .footer-danger {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 40px;
+  }
+  .copy-right {
+    text-align: center;
+  }
+  .column-12 {
+    margin: 96px 12px 96px 112px;
+  }
+  .medius-service{
+    row-gap: 12px;
+  }
+  .top-header {
+    background-color: black;
+  }
+  .hero-left-part {
+    margin: 120px 0px 120px 0 !important;
+  }
+  .hero-right-part {
+    margin: 120px 0px;
+  }
+  .total-form-background {
+    background-color: #f9fafb;
+    padding: 24px;
+    border-radius: 12px;
+  }
+  .service-title {
+    margin-bottom: 12px !important;
+  }
+
+  .services-font {
+    gap: 16px !important;
+  }
+  .logo-media{
+    margin-top: 16px !important;
+  }
+  .footer-body {
+    margin: 100px 300px 50px 300px !important;
+  }
+
+  .meeting-text {
+    font-family: CircularStd;
+    font-weight: 450;
+    font-size: 22px;
+    line-height: 32px;
+  }
+
+  .google-map {
+    margin-bottom: 56px;
+  }
+}
+
+
+
+font-450 {
+  font-weight: 450;
+}
+
+
+.company-about p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 26px;
+}
+
+.company-services p {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.bang-heading p {
+  font-weight: 700;
+  font-size: 18px;
+}
+.usa-heading p {
+  font-weight: 550;
+}
+
+.america-add p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 24px;
+}
+.bangladesh-add p {
+  font-weight: 450;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+.copy-right {
+  font-weight: 450;
+  font-size: 14px;
+  line-height: 20px;
+  /* text-align: center; */
+  /* margin: 26px; */
+}
